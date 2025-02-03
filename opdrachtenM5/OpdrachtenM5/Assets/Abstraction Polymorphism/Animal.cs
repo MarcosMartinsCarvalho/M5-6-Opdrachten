@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public abstract class Animal : MonoBehaviour
+public abstract class Animal 
 {
-    public abstract void Move();
-    public void Eat()
+    public  void Eat()
     {
-        Debug.Log("Njam Njam");
+        Debug.Log("nomnomnom");
     }
+    public abstract void Move();
 }
-

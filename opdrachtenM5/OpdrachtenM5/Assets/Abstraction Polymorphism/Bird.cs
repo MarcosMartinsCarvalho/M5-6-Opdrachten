@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bird : Animal
 {
+   
     public override void Move()
     {
-        Debug.Log("Flaps its wings");
+        Debug.Log("flap geluiden");
     }
 }
-

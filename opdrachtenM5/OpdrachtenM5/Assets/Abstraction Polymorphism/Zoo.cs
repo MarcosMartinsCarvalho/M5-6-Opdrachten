@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Zoo : MonoBehaviour
 {
-    private List<Animal> animals;
+    List<Animal> animals;
 
-    void Start()
+    private void Start()
     {
-        animals = new List<Animal> { new Bird(), new Dog(), new Elephant() };
+        animals = new List<Animal> { new Elephant(), new Bird(), new Dog()};
 
-        foreach (Animal animal in animals)
+        foreach (var animal in animals)
         {
-            animal.Eat();
             animal.Move();
+            animal.Eat();
         }
     }
 }

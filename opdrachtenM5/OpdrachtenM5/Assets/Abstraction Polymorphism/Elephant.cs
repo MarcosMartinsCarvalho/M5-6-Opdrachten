@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Elephant : Animal
 {
+   
+
     public override void Move()
     {
-        Debug.Log("Stomps heavily");
+        Debug.Log("stamp stomp stamp");
     }
 }
-
